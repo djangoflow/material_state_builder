@@ -2,4 +2,4 @@
 
 First version.
 
-- Expose a builder function to offer the material states and its corresponding controller to the returned widget.
+- Expose a builder function to offer the material states and their corresponding controller to the returned widget.
