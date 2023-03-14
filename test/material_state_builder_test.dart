@@ -12,7 +12,7 @@ class MyApp extends StatelessWidget {
       /// Easy way to set the same color for both the icon and the
       /// button for every button state.
       builder: (controller, states) {
-        /// Default colot.
+        /// Default color.
         var color = Colors.blue;
         if (states.contains(MaterialState.pressed)) {
           /// Change color when button is pressed.

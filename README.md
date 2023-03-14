@@ -76,7 +76,7 @@ class MyApp extends StatelessWidget {
                     /// Easy way to set the same color for both the icon and the
                     /// button for every button state.
                     builder: (controller, states) {
-                        /// Default colot.
+                        /// Default color.
                         var color = Colors.blue;
                         if (states.contains(MaterialState.pressed)) {
                             /// Change color when button is pressed.
@@ -107,7 +107,7 @@ class MyApp extends StatelessWidget {
 ## Gallery
 
 <p align="center">
-  <img width="360" height="140" src="https://github.com/Abel1027/intrinsic-dimension/raw/main/test/goldens/material_state_builder_golden_test.png">
+  <img width="360" height="140" src="https://github.com/Abel1027/material_state_builder/raw/main/test/goldens/material_state_builder_golden_test.png">
 </p>
 
 ## Dart Versions
