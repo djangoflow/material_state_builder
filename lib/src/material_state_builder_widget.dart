@@ -86,6 +86,7 @@ class _MaterialStateBuilderState extends State<MaterialStateBuilder> {
     }
 
     WidgetsBinding.instance.addPostFrameCallback((timeStamp) {
+      onMaterialStateChanged();
       statesController.addListener(onMaterialStateChanged);
     });
   }
